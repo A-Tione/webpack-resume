@@ -1,11 +1,11 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'production',
+    mode: 'production',//生产环境
     entry: './src/main.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'my-first-webpack.bundle.js'
+        filename: 'my-first-webpack.bundle.js'//打包后文件名
     },
     module: {
         rules: [
